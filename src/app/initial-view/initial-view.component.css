@@ -1,0 +1,119 @@
+.initial_container {
+  width: 35vw;
+  display: flex;
+  flex-direction: column;
+  background-color: #1f2630;
+  padding: 20px;
+  border-radius: 20px;
+  margin-top: 100px;
+}
+.initial_container .initial_icon {
+  width: 4vw;
+  height: 4vw;
+  border-radius: 50%;
+  background-color: #262E36;
+  justify-self: flex-start;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.initial_container .initial_buttons {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.initial_container .initial_buttons .buttonStyle {
+  display: flex;
+  flex-direction: column;
+  padding-top: 10px;
+  justify-content: center;
+  align-items: center;
+  width: 4vw;
+  height: 4vw;
+  border-radius: 50%;
+  border-radius: 50%;
+  border-style: solid;
+  text-align: center;
+  background-color: #262E36;
+  border-color: #262E36;
+  color: hsl(217deg, 12%, 63%);
+}
+.initial_container .initial_buttons .buttonStyle:hover {
+  background-color: hsl(25deg, 97%, 53%);
+  border-color: hsl(25deg, 97%, 53%);
+  color: hsl(0deg, 0%, 100%);
+}
+.initial_container .initial_buttons .buttonStyle:visited {
+  background-color: hsl(217deg, 12%, 63%);
+  border-color: hsl(217deg, 12%, 63%);
+  color: hsl(0deg, 0%, 100%);
+}
+.initial_container .initial_buttons .buttonStyle:active {
+  background-color: hsl(217deg, 12%, 63%);
+  border-color: hsl(217deg, 12%, 63%);
+  color: hsl(0deg, 0%, 100%);
+}
+.initial_container .initial_title {
+  color: hsl(0deg, 0%, 100%);
+  font-size: 15px;
+  justify-self: flex-start;
+  font-weight: bold;
+}
+.initial_container .initial_subtitle {
+  color: hsl(217deg, 12%, 63%);
+  padding-right: 40px;
+  justify-self: flex-start;
+  margin-bottom: 10px;
+}
+.initial_container .initial_submit {
+  text-align: center;
+}
+.initial_container .initial_submit #btn_submit {
+  background-color: hsl(0deg, 0%, 100%);
+  color: hsl(25deg, 97%, 53%);
+  padding: 1vw 10vw 1vw 10vw;
+  justify-self: center;
+  border-style: solid;
+  border-color: hsl(0deg, 0%, 100%);
+  border-radius: 20px;
+  font-weight: bold;
+}
+.initial_container .initial_submit #btn_submit:hover {
+  background-color: hsl(25deg, 97%, 53%);
+  border-color: hsl(25deg, 97%, 53%);
+  color: hsl(0deg, 0%, 100%);
+}
+
+.number {
+  padding-top: 5px;
+  font-size: 2vw;
+}
+
+@media (max-width: 856px) {
+  .initial_container {
+    width: 40vw;
+  }
+}
+@media (max-width: 680px) {
+  .initial_container {
+    width: 50vw;
+  }
+}
+@media (max-width: 532px) {
+  .initial_container {
+    width: 60vw;
+  }
+}
+@media (max-width: 351px) {
+  .initial_container {
+    width: 60vw;
+  }
+}
+
+/*# sourceMappingURL=initial-view.component.css.map */

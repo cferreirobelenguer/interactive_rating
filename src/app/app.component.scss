@@ -1,0 +1,16 @@
+//colors
+$backgroundDark:hsl(216, 12%, 8%);
+
+.app_container{
+    background-color: $backgroundDark;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 200px;
+    width: 100%;
+    
+}
+body{
+    background-color: $backgroundDark;
+}

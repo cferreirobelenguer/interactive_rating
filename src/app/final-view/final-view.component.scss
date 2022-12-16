@@ -1,0 +1,80 @@
+//colors
+$backgroundContainer:#1f2630;
+$titleColor:hsl(0, 0%, 100%);
+$subtitleColor:hsl(217, 12%, 63%);
+$orangeColor: hsl(25, 97%, 53%);
+$grisButtons:#262E36;
+//measure
+$diez:10px;
+$veinte:20px;
+$center:center;
+$cien:100px;
+$cinco:5px;
+$mitad:50%;
+//fonts
+$fontSize:15px;
+
+.final_container{
+    width: 35vw;
+    display: flex;
+    flex-direction: column;
+    background-color: $backgroundContainer;
+    padding: $veinte;
+    border-radius: $veinte;
+    margin-top: $cien;
+    .final_icon{
+        text-align: center;
+        justify-self:center;
+        padding: 10px;
+    }
+    .final_title{
+        text-align: center;
+        color:$titleColor;
+        font-size: $fontSize;
+        font-weight: bold;
+    }
+    .final_subtitle{
+        text-align: center;
+        color:$subtitleColor;
+        justify-self: flex-start;
+        margin-bottom: $diez;
+
+    }
+    .final_select{
+        text-align: center;
+        background-color: $grisButtons;
+        color:$orangeColor;
+        margin:20px;
+        padding: 0.5vw;
+        justify-self: center;
+        border-style:solid;
+        border-color:$grisButtons;
+        border-radius: 20px;
+        font-weight: bold;
+    }
+
+}
+.imagenResponsive{
+    width:164px;
+    height:100px;
+}
+
+@media (max-width: 680px) {
+    .final_container{
+        width: 50vw;
+        
+    }
+}
+//responsive mobile
+@media (max-width: 532px) {
+    .final_container{
+        width: 60vw;
+        
+    }
+}
+@media (max-width: 351px) {
+    .final_container{
+        width: 70vw;
+        
+    }
+}

@@ -1,0 +1,145 @@
+//colors
+$backgroundContainer:#1f2630;
+$titleColor:hsl(0, 0%, 100%);
+$subtitleColor:hsl(217, 12%, 63%);
+$orangeColor: hsl(25, 97%, 53%);
+$grisButtons:#262E36;
+//measure
+$diez:10px;
+$veinte:20px;
+$center:center;
+$cien:100px;
+$cinco:5px;
+$mitad:50%;
+//fonts
+$fontSize:15px;
+//functions
+@mixin button{width: 4vw;
+    height: 4vw;
+    border-radius: $mitad;
+    border-radius: $mitad;
+    border-style:solid;
+    text-align: center;
+}
+
+.initial_container{
+    width: 35vw;
+    display: flex;
+    flex-direction: column;
+    background-color: $backgroundContainer;
+    padding: $veinte;
+    border-radius: $veinte;
+    margin-top: $cien;
+
+    .initial_icon{
+        width: 4vw;
+        height: 4vw;
+        border-radius: $mitad;
+        background-color: $grisButtons;
+        justify-self: flex-start;
+        text-align: $center;
+        display:flex;
+        flex-direction: column;
+        justify-content: $center;
+        align-items: $center;
+        margin-bottom: $veinte;
+    }
+    .initial_buttons{
+        display:flex;
+        flex-direction: row;
+        gap:$diez;
+        justify-content: space-around;
+        align-items: $center;
+        margin-bottom: $veinte;
+        .buttonStyle{
+            display:flex;
+            flex-direction: column;
+            padding-top: $diez;
+            justify-content: $center;
+            align-items: $center;
+            @include button;
+            background-color: $grisButtons;
+            border-color: $grisButtons;
+            color:$subtitleColor;
+            &:hover{
+                background-color: $orangeColor;
+                border-color: $orangeColor;
+                color:$titleColor;
+            }
+            &:visited{
+                background-color: $subtitleColor;
+                border-color: $subtitleColor;
+                color:$titleColor;
+            }
+            &:active{
+                background-color: $subtitleColor;
+                border-color: $subtitleColor;
+                color:$titleColor;
+            }
+        }
+    }
+    .initial_title{
+        color:$titleColor;
+        font-size: $fontSize;
+        justify-self: flex-start;
+        font-weight: bold;
+    }
+    .initial_subtitle{
+        color:$subtitleColor;
+        padding-right: 40px;
+        justify-self: flex-start;
+        margin-bottom: $diez;
+
+    }
+    .initial_submit{
+        text-align: center;
+        #btn_submit{
+            background-color: $titleColor;
+            color:$orangeColor;
+            padding: 1vw 10vw 1vw 10vw ;
+            justify-self: center;
+            border-style:solid;
+            border-color:$titleColor;
+            border-radius: 20px;
+            font-weight: bold;
+            &:hover{
+                background-color: $orangeColor;
+                border-color: $orangeColor;
+                color:$titleColor;
+            }
+            
+        }
+    }
+    
+}
+.number{
+    padding-top: 5px;
+    font-size: 2vw;
+}
+//Responsive
+@media (max-width: 856px) {
+    .initial_container{
+        width: 40vw;
+        
+    }
+}
+
+@media (max-width: 680px) {
+    .initial_container{
+        width: 50vw;
+        
+    }
+}
+//responsive mobile
+@media (max-width: 532px) {
+    .initial_container{
+        width: 60vw;
+        
+    }
+}
+@media (max-width: 351px) {
+    .initial_container{
+        width: 60vw;
+        
+    }
+}
