@@ -39,11 +39,11 @@
 
 ![image](https://user-images.githubusercontent.com/88061350/208108657-3395e63f-f720-42fb-b9c6-4aa2e353e1ca.png)
 
-## VISTA MOBILE VISTA PRINCIPAL
+## VISTA MÓVIL VISTA PRINCIPAL
 
 ![image](https://user-images.githubusercontent.com/88061350/208107587-1b4dfd0d-a2fa-44ad-aaba-16ecc1c6acc1.png)
 
-## VISTA MOBILE SEGUNDA VISTA
+## VISTA MÓVIL SEGUNDA VISTA
 
 ![image](https://user-images.githubusercontent.com/88061350/208108568-469d861d-6ac9-448b-9180-da157b3c9aa3.png)
 
